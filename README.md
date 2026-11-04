@@ -22,12 +22,9 @@ The widget shows:
 ## Requirements
 
 This widget is the display of Polaris; it does nothing on its own. Install
-Polaris first (git checkout plus guided setup):
-
-```bash
-git clone https://github.com/mstio/polaris-connector ~/Projects/polaris-connector
-~/Projects/polaris-connector/install.sh
-```
+Polaris first, as described in its
+[README](https://github.com/mstio/polaris-connector#install). The widget
+itself downloads, builds and installs nothing.
 
 The widget then needs on `PATH`: `polaris-curator` (from Polaris), `jq`,
 `systemctl`, `systemd-run` and `xdg-open`. Without `polaris-curator` it only
